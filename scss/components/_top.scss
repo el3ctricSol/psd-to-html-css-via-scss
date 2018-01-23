@@ -1,3 +1,13 @@
+.container {
+  grid-template-columns: [col1] 20% [col2] 16% [col3] 16% [col4] 16% [col5] 16%;
+  align-items: center;
+
+  .item-a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
 .top {
   background-color: $dark-blue;
   height: 100px;
